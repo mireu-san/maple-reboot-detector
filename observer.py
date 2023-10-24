@@ -29,6 +29,7 @@ def send_notification(message):
 url = "https://maplestory.nexon.com/News/Notice/Notice"
 keyword = "리부트"
 
+# Message to be sent to Windows 11's notification center
 while True:
     if check_keyword(url, keyword):
         send_notification("리부트 공지가 있습니다!")
